@@ -1,4 +1,4 @@
-# projet2
+# Projet2
  
 # Bonjour voici mon projet 2 afin d'utiliser les fichiers voici comment faire:
 
