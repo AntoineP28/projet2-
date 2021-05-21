@@ -17,6 +17,3 @@ Les fichiers:
 
 - python_scrap = Il permet d'analyser 1 par 1 ce dont nous avons besoin
 
-- Export = Récupération par catégorie 
-
-- old = Dossier avec une autre méthode de récupération de livre
