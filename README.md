@@ -11,6 +11,8 @@ Tout d'abord installer les imports nécessaires:
 - import beautifulsoup4
 - import requests
 
+Changement pour test
+
 Les fichiers: 
 
 - bockscraping.py = Fichier principale afin de récupérer les éléments des livres 
