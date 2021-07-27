@@ -37,6 +37,7 @@ def books_data(url):
     else:
         page = r.text
         soup = BeautifulSoup(page, features="html.parser")
+        soup = BeautifulSoup(page, url)
 
         image_url = (soup.find("div", {"class": "item active"}).find("img")["src"].replace("../..","http://books.toscrape.com/") if soup.find("div", {"class": "item active"}).find("img") else "")
         category = (soup.find("ul", {"class": "breadcrumb"}).select("li > a", limit=3)[2].text if soup.find("ul", {"class": "breadcrumb"}) else "")
